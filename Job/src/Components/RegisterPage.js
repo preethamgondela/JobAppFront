@@ -33,7 +33,7 @@ const RegisterPage = () => {
       data.append("password", formData.password);
       data.append("role", role);
       if (role === "EMPLOYER") {
-        data.append("companyname", formData.companyName);
+        data.append("companyname", formData.companyname);
         console.log(formData.companyname);
         try{
           const response = await axios.post("http://localhost:8080/api/employers",data, {headers: { "Content-Type": "application/json" },});
