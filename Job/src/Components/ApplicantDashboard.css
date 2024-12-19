@@ -1,0 +1,27 @@
+.dashboard-container {
+    background: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .profile-card, .recommendations-card, .status-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-listing, .status-listing {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  .job-listing:hover, .status-listing:hover {
+    transform: scale(1.02);
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
