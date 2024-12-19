@@ -10,6 +10,7 @@ import RegisterPage from './Components/RegisterPage';
 import Footer from './Components/Footer'
 import ApplicantDashboard from './Components/ApplicantDashboard';
 import EmployeeDashboard from './Components/EmployeeDashboard';
+import LogoutPage from './Components/LogoutPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/ApplicantDashboard" element={<ApplicantDashboard />} />
           <Route path="/Components" element={<JobDetailsPage />} />
           <Route path="/LoginPage" element={<LoginPage />} />
+          <Route path="/logout" element={<LogoutPage />} />
           <Route path="/RegisterPage" element={<RegisterPage />} />
           <Route path="/EmployeeDashboard" element={<EmployeeDashboard />} />
           
